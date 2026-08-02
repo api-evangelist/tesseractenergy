@@ -1,8 +1,15 @@
 aid: tesseractenergy
-name: tesseractenergy
-description: tesseractenergy is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Fuse Energy
+description: >-
+  Fuse Energy (originally launched as Tesseract) is a UK-based, vertically integrated
+  energy supplier founded by former Revolut executives Alan Chang and Charles Orr. It
+  buys power from generators and supplies gas and electricity directly to residential
+  and business customers, positioning itself to beat the UK price cap with variable,
+  fixed and multi-rate tariffs, 30-minute billing updates, EV charging, solar/battery
+  export tracking and an in-app AI assistant called "Plugs." The company raised $78M
+  led by Balderton Capital and Lakestar. Surfaced in the API Evangelist network as a
+  portfolio-company lead; as of this enrichment pass Fuse Energy publishes only a
+  consumer-facing web and mobile app and no public developer API, SDK, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tesseractenergy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +17,37 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand:
+  former-name: Tesseract
+  former-url: https://www.tesseractenergy.xyz/
+  current-name: Fuse Energy
+  current-url: https://www.fuseenergy.com/
+  note: tesseractenergy.xyz 301-redirects to fuseenergy.com
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://static.fuseenergy.com/assets/preview/spaced-logo.png
 tags:
 - Company
+- Energy
+- Energy Supplier
+- Electricity
+- Gas
+- EV Charging
+- Climate Tech
+- United Kingdom
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +56,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.tesseractenergy.xyz/
+  url: https://www.fuseenergy.com/
+- type: Blog
+  url: https://www.fuseenergy.com/blog
+- type: Support
+  url: https://www.fuseenergy.com/support
+- type: TermsOfService
+  url: https://www.fuseenergy.com/legal
+- type: SignUp
+  url: https://www.fuseenergy.com/app/boarding
+- type: Careers
+  url: https://apply.workable.com/fuseenergy/
+- type: X
+  url: https://x.com/fuseenergy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fuseenergyhq
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
